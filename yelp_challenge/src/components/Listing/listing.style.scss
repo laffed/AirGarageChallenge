@@ -1,0 +1,65 @@
+.listing-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0.5em;
+}
+
+.card-container {
+  border: 1px solid grey;
+  border-radius: 10px;
+  width: 55%;
+  height: 250px;
+  padding: 15px;
+  display: flex;
+
+}
+
+.img-container {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  margin-right: 20px;
+
+  img {
+    max-height: 200px;
+    max-width: 200px;
+    border-radius: 10px;
+  }
+}
+
+.content-conatiner {
+
+  .listing-name,
+  .listing-score {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.rating-container {
+  display: flex;
+  align-items: flex-start;
+  width: 125px;
+  justify-content: space-between;
+
+  .stars {
+    height: 18px
+  }
+
+  p {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.address-container {
+  margin: 10px 0;
+
+  p {
+    margin: 2px;
+    padding: 0;
+  }
+}
